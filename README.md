@@ -1,25 +1,31 @@
-# 📦 Streamlit App Starter Kit 
-```
-⬆️ (Replace above with your app's name)
-```
+🍵 Chai App — Brew Heavenly Tea
 
-Description of the app ...
+A fun interactive web app built with Streamlit where users can vote for their favourite chai, customize their brew, and see live vote counts backed by a real SQL database.
 
-## Demo App
+🔗 Live App: my-chai-app.streamlit.app
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://app-starter-kit.streamlit.app/)
 
-## GitHub Codespaces
+What it does
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
 
-## Section Heading
+Vote for your favourite chai — Masala, Adrak, or Lemon
+One vote per session (no spam voting)
+Live vote counts updated in real time
+Bar chart visualization of votes
+Customize your brew — chai base, extra flavour, sugar level, number of cups
+Sidebar with home delivery info and brewing instructions
 
-This is filler text, please replace this with text for this section.
 
-## Further Reading
 
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+Tech Stack
+
+ToolPurposePythonCore languageStreamlitFrontend and deploymentSQLitePersistent vote storagePandasData handling for chart
+
+
+What I learned building this
+
+
+Connecting a SQLite database to a live Streamlit app
+Using st.session_state to prevent duplicate votes
+Reading SQL query results into a Pandas DataFrame for visualization
+Deploying a Python app with a live URL on Streamlit Cloud
